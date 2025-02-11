@@ -21,9 +21,20 @@ def substui(frase: str, letra: str) -> str:
     return resp
 
 
+def substitui_all(frase: str, letras: str) -> str:
+    resp = ""
+    letras_m = letras.upper()
+    for c in frase:
+        if c in letras or c in letras_m:
+            resp = resp + "*"
+        else:
+            resp = resp + c
+    return resp
+
+
 f = "Jabuticaba"
-letra = "a"
-resp = substui(f, letra)
+letra = "ajb"
+resp = substitui_all(f, letra)
 print(resp)
 
 
