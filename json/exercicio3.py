@@ -1,3 +1,5 @@
+import json
+
 def busca(lista: list, cod: int) -> int:
     i = 0
     while i < len(lista) and lista[i]['codigo'] != cod:
@@ -55,8 +57,21 @@ def imprime(lista: list):
         print(prod)
 
 
+def leitura() -> list:
+    try:
+        arq = open("json/data.json", mode="r", encoding="utf8")
+        lista = json.load(arq)
+        return lista
+    except:
+        return []
+
+def gravacao(dados: list):
+    print(dados)
+    arq = open("json/data.json", mode="w", encoding="utf8")
+    json.dump(dados, arq, indent=4)
+
 if __name__ == "__main__":
-    lista_prod = []
+    lista_prod = leitura()
 
     opcao = 0
     while opcao != 5:
@@ -80,4 +95,5 @@ if __name__ == "__main__":
         else:
             print("Opção inválida!")
         
-        imprime(lista_prod)
+    #imprime(lista_prod)
+    gravacao(lista_prod)

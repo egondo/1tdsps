@@ -1,0 +1,20 @@
+[
+    {
+        "codigo": 1,
+        "descricao": "Martelo",
+        "quantidade": 20,
+        "preco": 55.0
+    },
+    {
+        "codigo": 2,
+        "descricao": "Chave de fenda",
+        "quantidade": 6,
+        "preco": 10.5
+    },
+    {
+        "codigo": 3,
+        "descricao": "Furadeira",
+        "quantidade": 10,
+        "preco": 89.9
+    }
+]
