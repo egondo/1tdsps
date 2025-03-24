@@ -23,4 +23,4 @@ for reg in linhas:
 print(acumulados)
 
 json_arq = open('valor.json', mode="w", encoding="utf8")
-json.dump(acumulados, json_arq, indent=4)
+json.dump(acumulados, json_arq)
