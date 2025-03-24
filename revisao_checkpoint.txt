@@ -1,0 +1,12 @@
+4 Questoes
+
+1 - Leitura de arquivos + tratamento de exceções
+    - conteúdo em uma única String
+    - lista de String, cada linha em uma posição da lista
+
+2 - Trabalhar com (lista de )dicionários:
+    - criar dicionários a partir de dados: String como uma lista de String
+
+3 - Trabalhar com lista de dicionários adicionando/alterando informações
+
+4 - Gravação de arquivos json
