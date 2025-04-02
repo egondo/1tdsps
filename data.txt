@@ -1,0 +1,7 @@
+grãos;arroz;5kg;28.00
+grãos;feijão;1kg;12.80
+grãos;milho;500g;7.90
+carnes;alcatra;1kg;45.90
+carnes;sobrecoxa frango;1kg;17.80
+enlatados;ervilha;350g;3.50
+enlatados;óleo de soja;900ml;10.0
