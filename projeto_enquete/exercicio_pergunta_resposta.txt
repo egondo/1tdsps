@@ -1,0 +1,5 @@
+Só para deixar claro, vou colocar aqui:
+ 
+a) Faça um programa em python que cadastra várias perguntas
+b) Faça outro programa que aplica as perguntas para uma pessoa, monta uma resposta e grava a resposta no banco
+c) Faça outro programa que pega todas as respostas e gera um arquivo json com os resultados das perguntas. As perguntas/respostas de cada respondente deverá ficar em um arquivo json próprio. Pense no formato desse arquivo.
