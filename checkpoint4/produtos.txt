@@ -1,0 +1,174 @@
+codigo;produto;quantidade;preco;localizacao
+ABC1234;Smartphone Galaxy S23;10;1200.00;São Paulo
+DEF5678;Notebook Dell XPS 13;5;1500.00;Rio de Janeiro
+GHI9012;Smartwatch Apple Watch Series 8;20;400.00;Belo Horizonte
+JKL3456;Tablet iPad Pro 12.9;8;1000.00;Porto Alegre
+MNO7890;Fone de Ouvido Sony WH-1000XM5;15;350.00;Curitiba
+PQR1234;Mouse Logitech MX Master 3S;25;80.00;Salvador
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;12;120.00;Brasília
+VWX9012;Monitor LG Ultrawide 34";7;600.00;Recife
+YZA3456;Impressora HP LaserJet Pro M15w;18;200.00;Manaus
+BCD7890;Câmera GoPro HERO11 Black;9;450.00;Belém
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;14;180.00;Goiânia
+HIJ5678;SSD Externo Samsung T7 1TB;22;150.00;Fortaleza
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;30;50.00;Vitória
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;11;100.00;Florianópolis
+QRS7890;Webcam Logitech C920s Pro HD;16;90.00;João Pessoa
+TUV1234;Headset Gamer Razer BlackShark V2 X;19;70.00;Natal
+WXY5678;Controle Xbox Wireless;13;60.00;Aracaju
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;21;40.00;Campo Grande
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;23;130.00;Cuiabá
+FGH7890;Chromecast com Google TV;17;80.00;Teresina
+ABC1234;Smartphone Galaxy S23;11;1200.00;Rio de Janeiro
+DEF5678;Notebook Dell XPS 13;6;1500.00;Belo Horizonte
+GHI9012;Smartwatch Apple Watch Series 8;21;400.00;Porto Alegre
+JKL3456;Tablet iPad Pro 12.9;9;1000.00;Curitiba
+MNO7890;Fone de Ouvido Sony WH-1000XM5;16;350.00;Salvador
+PQR1234;Mouse Logitech MX Master 3S;26;80.00;Brasília
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;13;120.00;Recife
+VWX9012;Monitor LG Ultrawide 34";8;600.00;Manaus
+YZA3456;Impressora HP LaserJet Pro M15w;19;200.00;Belém
+BCD7890;Câmera GoPro HERO11 Black;10;450.00;Goiânia
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;15;180.00;Fortaleza
+HIJ5678;SSD Externo Samsung T7 1TB;23;150.00;Vitória
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;31;50.00;Florianópolis
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;12;100.00;João Pessoa
+QRS7890;Webcam Logitech C920s Pro HD;17;90.00;Natal
+TUV1234;Headset Gamer Razer BlackShark V2 X;20;70.00;Aracaju
+WXY5678;Controle Xbox Wireless;14;60.00;Campo Grande
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;22;40.00;Cuiabá
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;24;130.00;Teresina
+FGH7890;Chromecast com Google TV;18;80.00;São Paulo
+ABC1234;Smartphone Galaxy S23;12;1200.00;Curitiba
+DEF5678;Notebook Dell XPS 13;7;1500.00;Salvador
+GHI9012;Smartwatch Apple Watch Series 8;22;400.00;Brasília
+JKL3456;Tablet iPad Pro 12.9;10;1000.00;Recife
+MNO7890;Fone de Ouvido Sony WH-1000XM5;17;350.00;Manaus
+PQR1234;Mouse Logitech MX Master 3S;27;80.00;Belém
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;14;120.00;Goiânia
+VWX9012;Monitor LG Ultrawide 34";9;600.00;Fortaleza
+YZA3456;Impressora HP LaserJet Pro M15w;20;200.00;Vitória
+BCD7890;Câmera GoPro HERO11 Black;11;450.00;Florianópolis
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;16;180.00;João Pessoa
+HIJ5678;SSD Externo Samsung T7 1TB;24;150.00;Natal
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;32;50.00;Aracaju
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;13;100.00;Campo Grande
+QRS7890;Webcam Logitech C920s Pro HD;18;90.00;Cuiabá
+TUV1234;Headset Gamer Razer BlackShark V2 X;21;70.00;Teresina
+WXY5678;Controle Xbox Wireless;15;60.00;São Paulo
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;23;40.00;Curitiba
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;25;130.00;Salvador
+FGH7890;Chromecast com Google TV;19;80.00;Brasília
+ABC1234;Smartphone Galaxy S23;13;1200.00;Recife
+DEF5678;Notebook Dell XPS 13;8;1500.00;Manaus
+GHI9012;Smartwatch Apple Watch Series 8;23;400.00;Belém
+JKL3456;Tablet iPad Pro 12.9;11;1000.00;Goiânia
+MNO7890;Fone de Ouvido Sony WH-1000XM5;18;350.00;Fortaleza
+PQR1234;Mouse Logitech MX Master 3S;28;80.00;Vitória
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;15;120.00;Florianópolis
+VWX9012;Monitor LG Ultrawide 34";10;600.00;João Pessoa
+YZA3456;Impressora HP LaserJet Pro M15w;21;200.00;Natal
+BCD7890;Câmera GoPro HERO11 Black;12;450.00;Aracaju
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;17;180.00;Campo Grande
+HIJ5678;SSD Externo Samsung T7 1TB;25;150.00;Cuiabá
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;33;50.00;Teresina
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;14;100.00;São Paulo
+QRS7890;Webcam Logitech C920s Pro HD;19;90.00;Curitiba
+TUV1234;Headset Gamer Razer BlackShark V2 X;22;70.00;Salvador
+WXY5678;Controle Xbox Wireless;16;60.00;Brasília
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;24;40.00;Recife
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;26;130.00;Manaus
+FGH7890;Chromecast com Google TV;20;80.00;Belém
+ABC1234;Smartphone Galaxy S23;14;1200.00;Goiânia
+DEF5678;Notebook Dell XPS 13;9;1500.00;Fortaleza
+GHI9012;Smartwatch Apple Watch Series 8;24;400.00;Vitória
+JKL3456;Tablet iPad Pro 12.9;12;1000.00;Florianópolis
+MNO7890;Fone de Ouvido Sony WH-1000XM5;19;350.00;João Pessoa
+PQR1234;Mouse Logitech MX Master 3S;29;80.00;Natal
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;16;120.00;Aracaju
+VWX9012;Monitor LG Ultrawide 34";11;600.00;Campo Grande
+YZA3456;Impressora HP LaserJet Pro M15w;22;200.00;Cuiabá
+BCD7890;Câmera GoPro HERO11 Black;13;450.00;Teresina
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;18;180.00;São Paulo
+HIJ5678;SSD Externo Samsung T7 1TB;26;150.00;Curitiba
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;34;50.00;Salvador
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;15;100.00;Brasília
+QRS7890;Webcam Logitech C920s Pro HD;20;90.00;Recife
+TUV1234;Headset Gamer Razer BlackShark V2 X;23;70.00;Manaus
+WXY5678;Controle Xbox Wireless;17;60.00;Belém
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;25;40.00;Goiânia
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;27;130.00;Fortaleza
+FGH7890;Chromecast com Google TV;21;80.00;Vitória
+ABC1234;Smartphone Galaxy S23;15;1200.00;Florianópolis
+DEF5678;Notebook Dell XPS 13;10;1500.00;João Pessoa
+GHI9012;Smartwatch Apple Watch Series 8;25;400.00;Natal
+JKL3456;Tablet iPad Pro 12.9;13;1000.00;Aracaju
+MNO7890;Fone de Ouvido Sony WH-1000XM5;20;350.00;Campo Grande
+PQR1234;Mouse Logitech MX Master 3S;30;80.00;Cuiabá
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;17;120.00;Teresina
+VWX9012;Monitor LG Ultrawide 34";12;600.00;São Paulo
+YZA3456;Impressora HP LaserJet Pro M15w;23;200.00;Curitiba
+BCD7890;Câmera GoPro HERO11 Black;14;450.00;Salvador
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;19;180.00;Brasília
+HIJ5678;SSD Externo Samsung T7 1TB;27;150.00;Recife
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;35;50.00;Manaus
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;16;100.00;Belém
+QRS7890;Webcam Logitech C920s Pro HD;21;90.00;Goiânia
+TUV1234;Headset Gamer Razer BlackShark V2 X;24;70.00;Fortaleza
+WXY5678;Controle Xbox Wireless;18;60.00;Vitória
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;26;40.00;Florianópolis
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;28;130.00;João Pessoa
+FGH7890;Chromecast com Google TV;22;80.00;Natal
+ABC1234;Smartphone Galaxy S23;16;1200.00;Aracaju
+DEF5678;Notebook Dell XPS 13;11;1500.00;Campo Grande
+GHI9012;Smartwatch Apple Watch Series 8;26;400.00;Cuiabá
+JKL3456;Tablet iPad Pro 12.9;14;1000.00;Teresina
+MNO7890;Fone de Ouvido Sony WH-1000XM5;21;350.00;São Paulo
+PQR1234;Mouse Logitech MX Master 3S;31;80.00;Curitiba
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;18;120.00;Salvador
+VWX9012;Monitor LG Ultrawide 34";13;600.00;Brasília
+YZA3456;Impressora HP LaserJet Pro M15w;24;200.00;Recife
+BCD7890;Câmera GoPro HERO11 Black;15;450.00;Manaus
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;20;180.00;Belém
+HIJ5678;SSD Externo Samsung T7 1TB;28;150.00;Goiânia
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;36;50.00;Fortaleza
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;17;100.00;Vitória
+QRS7890;Webcam Logitech C920s Pro HD;22;90.00;Florianópolis
+TUV1234;Headset Gamer Razer BlackShark V2 X;25;70.00;João Pessoa
+WXY5678;Controle Xbox Wireless;19;60.00;Natal
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;27;40.00;Aracaju
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;29;130.00;Campo Grande
+FGH7890;Chromecast com Google TV;23;80.00;Cuiabá
+ABC1234;Smartphone Galaxy S23;17;1200.00;Teresina
+DEF5678;Notebook Dell XPS 13;12;1500.00;São Paulo
+GHI9012;Smartwatch Apple Watch Series 8;27;400.00;Curitiba
+JKL3456;Tablet iPad Pro 12.9;15;1000.00;Salvador
+MNO7890;Fone de Ouvido Sony WH-1000XM5;22;350.00;Brasília
+PQR1234;Mouse Logitech MX Master 3S;32;80.00;Recife
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;19;120.00;Manaus
+VWX9012;Monitor LG Ultrawide 34";14;600.00;Belém
+YZA3456;Impressora HP LaserJet Pro M15w;25;200.00;Goiânia
+BCD7890;Câmera GoPro HERO11 Black;16;450.00;Fortaleza
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;21;180.00;Vitória
+HIJ5678;SSD Externo Samsung T7 1TB;29;150.00;Florianópolis
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;37;50.00;João Pessoa
+NOP3456;Caixa de Som Bluetooth JBL Flip 6;18;100.00;Natal
+QRS7890;Webcam Logitech C920s Pro HD;23;90.00;Aracaju
+TUV1234;Headset Gamer Razer BlackShark V2 X;26;70.00;Campo Grande
+WXY5678;Controle Xbox Wireless;20;60.00;Cuiabá
+ZAB9012;Carregador Portátil Anker PowerCore 20000mAh;28;40.00;Teresina
+CDE3456;Leitor de Livros Digitais Kindle Paperwhite;30;130.00;São Paulo
+FGH7890;Chromecast com Google TV;24;80.00;Curitiba
+ABC1234;Smartphone Galaxy S23;18;1200.00;Salvador
+DEF5678;Notebook Dell XPS 13;13;1500.00;Brasília
+GHI9012;Smartwatch Apple Watch Series 8;28;400.00;Recife
+JKL3456;Tablet iPad Pro 12.9;16;1000.00;Manaus
+MNO7890;Fone de Ouvido Sony WH-1000XM5;23;350.00;Belém
+PQR1234;Mouse Logitech MX Master 3S;33;80.00;Goiânia
+STU5678;Teclado Mecânico HyperX Alloy FPS Pro;20;120.00;Fortaleza
+VWX9012;Monitor LG Ultrawide 34";15;600.00;Vitória
+YZA3456;Impressora HP LaserJet Pro M15w;26;200.00;Florianópolis
+BCD7890;Câmera GoPro HERO11 Black;17;450.00;João Pessoa
+EFG1234;Roteador Wi-Fi 6 TP-Link Archer AX50;22;180.00;Natal
+HIJ5678;SSD Externo Samsung T7 1TB;30;150.00;Aracaju
+KLM9012;Pen Drive SanDisk Ultra Dual Drive Luxe 256GB;38;50.00;Campo Grande

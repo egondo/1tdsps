@@ -1,0 +1,30 @@
+Palmeiras 1 X 4 São Paulo
+Palmeiras 2 X 4 Corinthians
+Palmeiras 1 X 7 Portuguesa
+Palmeiras 1 X 3 Juventus
+Palmeiras 6 X 4 Nacional
+São Paulo 2 X 6 Corinthians
+São Paulo 4 X 6 Portuguesa
+São Paulo 3 X 0 Juventus
+São Paulo 2 X 7 Nacional
+Corinthians 0 X 3 Portuguesa
+Corinthians 7 X 7 Juventus
+Corinthians 2 X 1 Nacional
+Portuguesa 4 X 7 Juventus
+Portuguesa 5 X 1 Nacional
+Juventus 4 X 6 Nacional
+Nacional 0 X 2 Juventus
+Nacional 3 X 4 Portuguesa
+Nacional 5 X 4 Corinthians
+Nacional 6 X 4 São Paulo
+Nacional 7 X 4 Palmeiras
+Juventus 6 X 7 Portuguesa
+Juventus 5 X 6 Corinthians
+Juventus 4 X 3 São Paulo
+Juventus 0 X 7 Palmeiras
+Portuguesa 5 X 7 Corinthians
+Portuguesa 7 X 2 São Paulo
+Portuguesa 2 X 0 Palmeiras
+Corinthians 1 X 6 São Paulo
+Corinthians 2 X 1 Palmeiras
+São Paulo 0 X 3 Palmeiras

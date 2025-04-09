@@ -1,0 +1,26 @@
+[
+    {
+        "valor": 1,
+        "naipe": "copas"
+    },
+    {
+        "valor": 2,
+        "naipe": "copas"
+    },
+    {
+        "valor": 3,
+        "naipe": "copas"
+    },
+    {
+        "valor": 4,
+        "naipe": "copas"
+    },
+    {
+        "valor": 5,
+        "naipe": "copas"
+    },
+    {
+        "valor": 6,
+        "naipe": "copas"
+    }
+]
