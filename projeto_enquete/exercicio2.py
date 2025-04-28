@@ -7,7 +7,7 @@ respondente = input("Quem é vc?")
 
 respostas = []
 aux = datetime.datetime.now()
-hoje = aux.strftime('%x')
+hoje = f"{aux.strftime('%x')} {aux.strftime('%X')}" 
 print(hoje)
 for perg in perguntas:
     s = f"{perg[1]}) {perg[2]}\n"

@@ -37,7 +37,16 @@ def atualiza_carro():
     msg = {"msg": "Carro com o id nao encontrado", 'status': 404}
     return (jsonify(msg), 404)
 
+@app.route("/carros", methods=['POST']) #criando um recurso
+def insere_carro():
+    carro = request.json
+    for car in db.carros:
+        if car['id'] == carro['id'] or car['placa'] == carro['placa']:
+            info = {'msg': 'Já existe um carro com o mesmo id ou placa',
+                    'status': 406}
+            return (jsonify(info), 406)
 
-
+    db.carros.append(carro)
+    return (jsonify(carro), 201)
 
 app.run(debug=True)
