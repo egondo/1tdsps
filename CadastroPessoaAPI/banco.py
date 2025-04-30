@@ -23,3 +23,27 @@ def insere_pessoa(pes: dict):
             pes['id'] = new_id.getvalue()[0]  #substituindo a variavel oracle pelo id gerado pelo banco
         con.commit()
 
+if __name__ == "__main__":
+    pes = {
+        "nome": "Daniel Boaventura",
+        "telefone": "(11) 77498-2933",
+        "cpf": "928.840.343-76",
+        "sexo": "masculino",
+        "nascimento": "29/04/2000"
+    }
+
+    insere_pessoa(pes)
+
+    end = {
+        "logradouro": "Av Paulista",
+        "numero": "1106",
+        "bairro": "Bela Vista",
+        "complemento": "4º andar",
+        "cep": "04281-000",
+        "municipio": "São Paulo"
+    }
+    end['id_pessoa'] = pes['id']
+    insere_endereco(end)
+
+
+
