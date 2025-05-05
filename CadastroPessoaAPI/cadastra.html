@@ -31,6 +31,38 @@
     </form>
 
     <script>
+        data = {
+            "pessoa": {
+                "nome": document.getElementById("nome").value,
+                "telefone": document.getElementById("telefone").value,
+                "sexo": document.getElementById("sexo").value,
+                "cpf": document.getElementById("cpf").value,
+                "nascimento": document.getElementById("nascimento").value
+            },
+
+            "endereco": {
+                "logradouro": document.getElementById.value,
+                "numero": document.getElementById("numero").value,
+                "bairro": document.getElementById("bairro").value,
+                "complemento": document.getElementById("complemento").value,
+                "municipio": document.getElementById("municipio").value,
+                "cep": document.getElementById("cep").value
+            }
+        }
+
+        let btn_cadastra = document.getElementById("btn_cadastra")
+        btn_cadastra.addEventListener('click', function(){
+            alert("Chamou o botao de cadastramento")
+            link = "http://127.0.0.1:5000/pessoas"
+            fetch(link, {
+                            method: "POST",
+                            body: data
+                        })
+                .then(function(res){ return res.json() })
+                .then(function(data){ alert( JSON.stringify(data)) })
+
+        })
+
         let botao = document.getElementById("btn_cep")
         botao.addEventListener('click', function(){
             let cep_valor = document.getElementById("cep").value
@@ -51,6 +83,8 @@
                     mun.value = data.localidade
                 })
         }) 
+
+
     </script>
 </body>
 </html>

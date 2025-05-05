@@ -1,7 +1,14 @@
 from flask import Flask, jsonify, request
 import negocio
+import traceback
 
 app = Flask("API_PESSOA")
+
+@app.route("/pessoas", methods=["GET"])
+def get_pessoa():
+    return ({"nome": "FIAP"}, 200)
+
+
 
 @app.route("/pessoas", methods=["POST"])
 def grava_pessoa():
