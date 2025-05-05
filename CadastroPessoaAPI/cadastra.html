@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <h3>Cadastro Pessoa</h3>
+        <p>Nome: <input type="text" id="nome" /></p>
+        <p>Telefone: <input type="text" id="telefone" value="5511 "/></p>
+        <p>CPF: <input type="text" id="cpf" /></p>
+        <p>Sexo: 
+            <select id="sexo">
+                <option value=""></option>
+                <option value="masculino">Masculino</option>
+                <option value="feminino">Feminino</option>
+            </select>
+        </p>
+        <p>Data de nascimento (dd/mm/yyyy) <input type="text" id="nascimento" /></p>
+        <p>CEP: <input type="text" id="cep" /> 
+                <input type="button" id="btn_cep" value="consulta" />
+        </p>
+        <p>Logradouro: <input type="text" id="logradouro" /></p>
+        <p>Número: <input type="text" id="numero" /> 
+            Compl: <input type="text" id="complemento" /></p>
+        <p>Bairro: <input type="text" id="bairro" /></p>
+        <p>Município: <input type="text" id="municipio" /></p>
+        <p><input type="button" id="btn_cadastra" value="cadastra"/></p>
+    </form>
+
+    <script>
+        let botao = document.getElementById("btn_cep")
+        botao.addEventListener('click', function(){
+            let cep_valor = document.getElementById("cep").value
+            link = "https://viacep.com.br/ws/" + cep_valor + "/json" 
+            //console.log(link)
+            fetch(link)
+                .then(response => response.json())
+                .then(data => {
+                    //console.log(data)
+                    cep = document.getElementById("cep")
+                    log = document.getElementById("logradouro")
+                    bai = document.getElementById("bairro")
+                    mun = document.getElementById("municipio")
+
+                    cep.value = data.cep
+                    log.value = data.logradouro
+                    bai.value = data.bairro
+                    mun.value = data.localidade
+                })
+        }) 
+    </script>
+</body>
+</html>
