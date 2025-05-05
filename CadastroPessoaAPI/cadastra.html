@@ -53,7 +53,8 @@
         let btn_cadastra = document.getElementById("btn_cadastra")
         btn_cadastra.addEventListener('click', function(){
             alert("Chamou o botao de cadastramento")
-            link = "http://127.0.0.1:5000/pessoas"
+            //link = "http://127.0.0.1:5000/pessoas"
+            link = "https://onetdsps-servidor.onrender.com/pessoas"
             fetch(link, {
                             method: "POST",
                             body: data
