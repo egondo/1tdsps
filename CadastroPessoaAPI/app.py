@@ -6,7 +6,7 @@ import traceback
 
 app = Flask("API_PESSOA")
 
-CORS(app, origins="http://127.0.0.1:5000")
+CORS(app, origins="https://onetdsps-servidor.onrender.com/pessoas")
 
 @app.route("/pessoas", methods=["GET"])
 @cross_origin()
