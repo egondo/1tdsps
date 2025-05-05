@@ -8,9 +8,9 @@
 <body>
     <form>
         <h3>Cadastro Pessoa</h3>
-        <p>Nome: <input type="text" id="nome" /></p>
-        <p>Telefone: <input type="text" id="telefone" value="5511 "/></p>
-        <p>CPF: <input type="text" id="cpf" /></p>
+        <p>Nome: <input type="text" id="nome" value="Edu Gondo" /></p>
+        <p>Telefone: <input type="text" id="telefone" value="5511 7372-9800"/></p>
+        <p>CPF: <input type="text" id="cpf" value="847.029.093-00"/></p>
         <p>Sexo: 
             <select id="sexo">
                 <option value=""></option>
@@ -18,46 +18,46 @@
                 <option value="feminino">Feminino</option>
             </select>
         </p>
-        <p>Data de nascimento (dd/mm/yyyy) <input type="text" id="nascimento" /></p>
-        <p>CEP: <input type="text" id="cep" /> 
+        <p>Data de nascimento (dd/mm/yyyy) <input type="text" 
+            id="nascimento" value="04/06/2000"/></p>
+        <p>CEP: <input type="text" id="cep" value="04131000"/> 
                 <input type="button" id="btn_cep" value="consulta" />
         </p>
         <p>Logradouro: <input type="text" id="logradouro" /></p>
-        <p>Número: <input type="text" id="numero" /> 
-            Compl: <input type="text" id="complemento" /></p>
+        <p>Número: <input type="text" id="numero" value="731"/> 
+            Compl: <input type="text" id="complemento" value="1 andar"/></p>
         <p>Bairro: <input type="text" id="bairro" /></p>
         <p>Município: <input type="text" id="municipio" /></p>
         <p><input type="button" id="btn_cadastra" value="cadastra"/></p>
     </form>
 
     <script>
-        data = {
-            "pessoa": {
-                "nome": document.getElementById("nome").value,
-                "telefone": document.getElementById("telefone").value,
-                "sexo": document.getElementById("sexo").value,
-                "cpf": document.getElementById("cpf").value,
-                "nascimento": document.getElementById("nascimento").value
-            },
-
-            "endereco": {
-                "logradouro": document.getElementById.value,
-                "numero": document.getElementById("numero").value,
-                "bairro": document.getElementById("bairro").value,
-                "complemento": document.getElementById("complemento").value,
-                "municipio": document.getElementById("municipio").value,
-                "cep": document.getElementById("cep").value
-            }
-        }
-
         let btn_cadastra = document.getElementById("btn_cadastra")
         btn_cadastra.addEventListener('click', function(){
-            alert("Chamou o botao de cadastramento")
+            data = {
+                "pessoa": {
+                    "nome": document.getElementById("nome").value,
+                    "telefone": document.getElementById("telefone").value,
+                    "sexo": document.getElementById("sexo").value,
+                    "cpf": document.getElementById("cpf").value,
+                    "nascimento": document.getElementById("nascimento").value
+                },
+                "endereco": {
+                    "logradouro": document.getElementById("logradouro").value,
+                    "numero": document.getElementById("numero").value,
+                    "bairro": document.getElementById("bairro").value,
+                    "complemento": document.getElementById("complemento").value,
+                    "municipio": document.getElementById("municipio").value,
+                    "cep": document.getElementById("cep").value
+                }
+            }
+            console.log(data)
             //link = "http://127.0.0.1:5000/pessoas"
             link = "https://onetdsps-servidor.onrender.com/pessoas"
             fetch(link, {
                             method: "POST",
-                            body: data
+                            body: JSON.stringify(data),
+                            headers: {"Content-type": "application/json"}
                         })
                 .then(function(res){ return res.json() })
                 .then(function(data){ alert( JSON.stringify(data)) })
