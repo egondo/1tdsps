@@ -29,6 +29,26 @@ create table tb_resposta(
     foreign key(pergunta_id) references tb_pergunta(id)
 );
 
+insert into tb_enquete(nome) values('Esporte');
+insert into tb_pergunta(numero, questao, tipo, enquete_id) values(1, 'Qual o time que você torce?','aberta', 1);
+
+insert into tb_pergunta(numero, questao, tipo, enquete_id) values(2, 'Quem vai ganhar a Champions?','unica', 1);
+
+insert into tb_pergunta(numero, questao, tipo, enquete_id) values(3, 'Quais são os melhores jogadores da Champions?', 'multipla', 1);
+
+insert into tb_item(pergunta_id, nome) values(2, 'Barcelona');
+insert into tb_item(pergunta_id, nome) values(2, 'Inter de Milão');
+insert into tb_item(pergunta_id, nome) values(2, 'Arsenal');
+insert into tb_item(pergunta_id, nome) values(2, 'PSG');
+
+insert into tb_item(pergunta_id, nome) values(3, 'Raphinha');
+insert into tb_item(pergunta_id, nome) values(3, 'Lewandovski');
+insert into tb_item(pergunta_id, nome) values(3, 'Dembele');
+insert into tb_item(pergunta_id, nome) values(3, 'Martinelli');
+insert into tb_item(pergunta_id, nome) values(3, 'Lautaro');
+insert into tb_item(pergunta_id, nome) values(3, 'Rodrygo');
+
+
 
 
 
